@@ -64,7 +64,7 @@ La actividad consiste en resolver varios ejercicios de la Unidad 2 con Python. L
 > **La entrega tiene que cumplir las condiciones de entrega para poder ser calificada. En caso de no cumplirlas podría calificarse como no entregada.**
 
 - Cumple la fecha y hora de entrega.
-- **Entrega en GitHub Classroom**: La actividad se debe entregar utilizando el assignment creado en GitHub Classroom, que está basado en el siguiente repositorio de plantilla: [DAM-DAWB-PROG-2425_U1_Ejercicios](https://github.com/dcanoIESRafaelAlberti/DAM-DAWB-PROG-2425_U1_Ejercicios).
+- **Entrega en GitHub Classroom**: La actividad se debe entregar utilizando el assignment creado en GitHub Classroom, que está basado en el siguiente repositorio de plantilla: [DAM-DAWB-PROG-2425_U2_Ejercicios](https://github.com/dcanoIESRafaelAlberti/DAM-DAWB-PROG-2425_U2_Ejercicios).
   - El repositorio ya incluye la estructura base con carpetas como `src` y `tests`. Los estudiantes deben añadir sus soluciones en la carpeta correspondiente.
   - Asegúrate de que el profesor tiene permisos para acceder a tu repositorio. Si no se puede acceder, es equivalente a no haber entregado la actividad.
 - **Estructura del repositorio**:
