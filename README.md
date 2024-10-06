@@ -1,6 +1,6 @@
-# Actividad: **Ejercicios básicos de introducción a Python**
+# Actividad: **Ejercicios U2**
 
-**ID actividad:** PROG-2425-U1-01
+**ID actividad:** PROG-2425-U2-01
 
 **Agrupamiento de la actividad**: Individual
 
@@ -8,37 +8,45 @@
 
 ### Descripción:
 
-La actividad consiste en resolver varios ejercicios básicos de introducción al desarrollo de software con Python, divididos en diferentes categorías, como ejercicios básicos, problemas a solucionar, construcción de funciones y pruebas unitarias. Cada conjunto de ejercicios está disponible en un fichero separado, y los estudiantes deberán crear un programa para cada ejercicio.
+La actividad consiste en resolver varios ejercicios de la Unidad 2 con Python. Los estudiantes deberán crear un programa para cada ejercicio, aplicando los conceptos de condicionales, bucles, captura de excepciones y depuración.
 
 **Objetivo:**
 
-- Familiarizarse con los conceptos básicos de Python.
-- Desarrollar habilidades en la resolución de problemas mediante código.
-- Implementar pruebas unitarias para verificar el correcto funcionamiento de las soluciones.
+- Aplicar las sentencias condicionales para resolver problemas que requieren decisiones lógicas.
+- Utilizar bucles e iteraciones para automatizar procesos repetitivos.
+- Manejar excepciones para evitar errores en la ejecución del programa.
+- Mejorar el código mediante la depuración y detección de errores.
 
 **Trabajo a realizar:**
 
-1. Realizar los ejercicios básicos disponibles en [P1.2 - Ejercicios básicos](https://revilofe.github.io/section1/u01/practica/PROG-U1.-Practica002/) *(cada ejercicio en un fichero: ej01.py al ej27.py)*
-2. Resolver los problemas adicionales especificados en los archivos complementarios:
-   - [P1.2b - Ejercicios básicos EXTRA](info/p1.2b_ejercicios_basicos_EXTRA.md)
-   - [P1.2c - Soluciona estos problemas](info/p1.2c_soluciona_estos_problemas.md)
-   - [P1.2d - Construye funciones](info/p1.2d_construye_funciones.md)
-   - [P1.2e - Primeras pruebas unitarias](info/p1.2e_pruebas_unitarias.md)
-   - [EXTRA - ejercicios OPCIONALES](info/p1.2f_ejercicios_opcionales.md)
+1. Realizar los ejercicios siguientes:
+   - [Práctica 2.1: Sentencias condicionales](https://revilofe.github.io/section1/u02/practica/PROG-U2.-Practica001/) *(nomenclatura de los programas: ej21_01.py ... ej21_10.py)*
+   - [Práctica 2.2: Sentencias iterativas y saltos](https://revilofe.github.io/section1/u02/practica/PROG-U2.-Practica002/) *(nomenclatura de los programas: ej22_01.py ... ej22_25.py)*
+   - [Práctica 2.3: Capturas de excepciones](https://revilofe.github.io/section1/u02/practica/PROG-U2.-Practica003/) *(nomenclatura de los programas: ej23_01.py ... ej23_05.py)*
+   - [Práctica 2.4: Depurar programas](https://revilofe.github.io/section1/u02/practica/PROG-U2.-Practica004/) *(nomenclatura del programa: ej24_01.py)*
 3. Crear un archivo Python para cada ejercicio y organizar los archivos según la estructura solicitada.
-4. La nomenclatura de los programas será `ej01.py` ... `ejNN.py`. Dichos programas deben ubicarse en la carpeta `src`.
-5. Las pruebas unitarias se almacenarán en la carpeta `tests` con la nomenclatura `test_ejXX.py`.
+4. Los programas deben ubicarse en la carpeta `src`. Cada grupo de programas dentro de la subcarpeta adecuada: condicionales, bucles, excepciones, depuracion
+5. Realizar las pruebas unitarias para las funciones de al menos 10 ejercicios a tu elección. Estas pruebas se almacenarán en la carpeta `tests` con la nomenclatura `test_ej2X_XX.py`.
+6. La práctica 2.4 debes documentarla con DocStrings. Para ello, lee atentamente los siguientes enlaces: [2.5.-Documentar el código](https://revilofe.github.io/section1/u02/teoria/PROG-U2.5.-Documentar/) y [2.5.1-¿Deberías documentar tu código?](https://revilofe.github.io/section1/u02/teoria/PROG-U2.5.1.-DeberiasDocumentar/). Puedes usar el formato que más te guste *(Docstrings de Google, Texto Reestructurado, Cadenas de documentación NumPy/SciPy o Epitexto)*
 
 ### Recursos
 
 - Temario trabajado en clase.
-- Recursos disponibles en la web del curso: [U1: Introducción al desarrollo de software](https://revilofe.github.io/section1/u01/).
+- Recursos disponibles en la web del curso: [U2: Sentencias condicionales y repetitivas](https://revilofe.github.io/section1/u02/).
 
 ---
 
 ### Evaluación y calificación
 
 **RA y CE evaluados**: 
+
+- RA2: Implementar sentencias condicionales y repetitivas en la resolución de problemas.
+   - CE2.1: Aplicar estructuras de control condicionales en diferentes problemas.
+   - CE2.2: Utilizar sentencias iterativas y excepciones en la implementación de soluciones.
+
+- RA3: Depurar y validar el funcionamiento del código.
+   - CE3.1: Identificar y corregir errores en los programas mediante técnicas de depuración.
+   - CE3.2: Usar pruebas unitarias para validar el correcto funcionamiento del código.
 
 **Conlleva presentación**: NO
 
@@ -62,9 +70,7 @@ La actividad consiste en resolver varios ejercicios básicos de introducción al
 - **Estructura del repositorio**:
     - **Carpeta `src`**: Contendrá los programas correspondientes a los ejercicios solicitados.
     - **Carpeta `tests`**: Contendrá las pruebas unitarias para verificar el correcto funcionamiento de las soluciones.
-    - **Carpeta `docs`**: Contendrá el documento PDF solicitado en el apartado **P1.2e - Primeras pruebas unitarias**.
     - **Carpeta `.github/workflows`**: No debe eliminarse ni modificarse su contenido.
-    - **Carpeta `info`**: No debe eliminarse ni modificarse su contenido.
     - **Fichero `requirements.txt`**: No debe eliminarse ni modificarse su contenido.
 - **Id del documento a entregar:** El nombre del repositorio será generado automáticamente por GitHub Classroom, por lo que no es necesario que los estudiantes lo modifiquen.
 
