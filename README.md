@@ -10,6 +10,8 @@
 
 La actividad consiste en resolver varios ejercicios de la Unidad 2 con Python. Los estudiantes deberán crear un programa para cada ejercicio, aplicando los conceptos de condicionales, bucles, captura de excepciones y depuración.
 
+A partir de ahora, todos los programas entregados en Python deben tener la función `main()` y deben cumplir con la "Separación de Responsabilidades". Para ello, los estudiantes deberán crear las funciones sw única responsabilidad necesarias para resolver el problema.
+
 **Objetivo:**
 
 - Aplicar las sentencias condicionales para resolver problemas que requieren decisiones lógicas.
